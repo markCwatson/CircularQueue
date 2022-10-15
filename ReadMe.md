@@ -19,7 +19,7 @@ choco install mingw
 
 ```
 #include <stdio.h>
-#include "cqueue.h"
+#include "cqueue/cqueue.h"
 
 
 int main(int argc, int** argv)
