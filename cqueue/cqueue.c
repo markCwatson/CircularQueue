@@ -1,6 +1,5 @@
 #include "cqueue.h"
 
-
 void cqueue_init(cqueue_s *s, size_t init_size, size_t elem_size, void(*free_callback)(void *))
 {
 	assert(elem_size > 0);
