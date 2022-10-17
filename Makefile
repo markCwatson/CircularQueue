@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-I.
 DEPS=cqueue/cqueue.h
-OBJ=main.o cqueue/cqueue.o
+OBJ=example.o cqueue/cqueue.o
 TEST_OBJ=test.o cqueue/cqueue.o 
 
 %.o: %.c $(DEPS)

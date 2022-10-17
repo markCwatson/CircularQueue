@@ -82,7 +82,7 @@ int main(int argc, int** argv)
 
 <br>
 
-<h2>Results (1):</h2>
+<h3>Running example.exe: (1):</h3>
 
 <br>
 
@@ -99,7 +99,7 @@ Here are the contents of the cqueue: '1' '2' '3'
 
 <br>
 
-<h2>Results (2):</h2>
+<h2>Running example.exe: (2):</h2>
 
 <br>
 
