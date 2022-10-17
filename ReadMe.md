@@ -99,7 +99,7 @@ Here are the contents of the cqueue: '1' '2' '3'
 
 <br>
 
-<h2>Running example.exe: (2):</h2>
+<h3>Running example.exe: (2):</h3>
 
 <br>
 
