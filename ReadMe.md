@@ -1,10 +1,8 @@
-<h1>Circular Queue (cqueue) Example</h1>
+<h1>Circular Queue (cqueue)</h1>
 
-This is a simple example of initializing a using a circular queue per this cqueue interface. The example includes adding of elements, printing contents, etc.
 
-<br>
-
-This example was built on Windows using gcc/MinGW. To build and run the executable `example.exe`, you can install chocolatey (a package manager for Windows), make, and MinGW using the following commands (when running a PowerShell as admin):
+<h2>Setup to Run Example and Unit Test</h2>
+The example and unit test were built on Windows using gcc/MinGW. To build and run the executables example.exe and/or run_test.exe, you can install chocolatey (a package manager for Windows), make, and MinGW using the following commands (when running a PowerShell as admin):
 
 <br>
 
@@ -14,6 +12,24 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install make
 choco install mingw
 ```
+
+<br>
+
+Note: I also added the `/bin` folder in the GitBash installation to my environment varibales in order to run the `make clean` rule without any errors. 
+
+<br>
+
+<h2>Unit Test</h2>
+A simple unit test can be run by running the following commands in the root directory.
+
+```
+make test
+run_test.exe
+```
+<br>
+
+<h2>Example</h2>
+This is a simple example of initializing a using a circular queue per this cqueue interface. The example includes adding of elements, printing contents, etc.
 
 <br>
 
